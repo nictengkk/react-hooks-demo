@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Example1After from "./components/Scenario1/Example1After";
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>test</h1>
+        <Example1After />
       </div>
     );
   }

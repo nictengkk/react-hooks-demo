@@ -1,19 +1,22 @@
-import React, {useState, useEffect} from "react";
+//to convert componentDidMount and componentWillUnmount using hooks, must import useEffect
+import React, { useState, useEffect } from "react";
 
 function Example4After() {
   const [userName, setUsername] = useState("JD");
   const [firstName, setFirstname] = useState("John");
   const [lastName, setLastname] = useState("Doe");
 
+  //a replica of componentDidMount and MUST return componentWillUnmount through creation of arrow function clearInterval
   useEffect(() => {
     const timer = setInterval(() => {
       setUsername("MJ");
       setFirstname("Mary");
       setLastname("Jane");
     }, 5000);
+
     return () => {
       clearInterval(timer);
-    }
+    };
   });
 
   const handleUserNameInput = e => {

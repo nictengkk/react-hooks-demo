@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 
 function Example2After() {
+  //name here is this.state.name
+  //setName is the handler, naming convention follows set + n(N)ame. this function is the same as setState.
+  //destructuring array
   const [name, setName] = useState("John Doe");
+
+
+  //name === this.state.name
 
   const alertName = () => {
     alert(name);
   };
 
+  //setName = this.setState({name: newValue})
   const handleNameInput = event => {
     setName(event.target.value);
   };

@@ -15,3 +15,5 @@ In class we will mount the component to App, view the code and discuss how it wo
 Next we will go to another blog [Why react hooks and how did we get here](https://medium.freecodecamp.org/why-react-hooks-and-how-did-we-even-get-here-aa5ed5dc96af) to understand 
 - The benefits of using Hooks as opposed to classes in your new components. 
 - Some rules we need to keep in mind when using Hooks
+
+The last blog article [Simple code reuse with react hooks](https://blog.bitsrc.io/simple-code-reuse-with-react-hooks-432f390696bf) is another example of how to build your own custom hook

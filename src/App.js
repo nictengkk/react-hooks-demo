@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Example3After from "./components/Scenario3/Example3After";
+import Example4After from "./components/Scenario4/Example4After";
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <Example3After />
+        <Example4After />
       </div>
     );
   }

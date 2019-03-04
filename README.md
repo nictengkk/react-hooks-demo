@@ -9,7 +9,7 @@ In class we will mount the component to App, view the code and discuss how it wo
 ## Scenario 1 : Class without state or lifecycle methods
 ## Scenario 2 : Class with state
 ## Scenario 3 : Class with multiple state properties
-## Scenario 4 : Class with state and componentDidMount
+## Scenario 4 : Class with state and componentDidMount and componentWillUnmount
 ## Scenario 5 : Class with state, componentDidMount and componentDidUpdate
 
 Next we will go to another blog [Why react hooks and how did we get here](https://medium.freecodecamp.org/why-react-hooks-and-how-did-we-even-get-here-aa5ed5dc96af) to understand 
